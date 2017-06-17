@@ -1,0 +1,15 @@
+Package: minimalpkg
+Type: Package
+Version: 0.1
+Title: A minimalist package examples
+Description: minimal.
+Author: "Matthias Bannert <bannert@kof.ethz.ch> [aut, cre]"
+Depends:
+    R (>= 3.0.0),
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr    
+Date: 2016-01-01
+License: GPL-2
+LazyData: true
+Maintainer: 'Matthias Bannert' <bannert@kof.ethz.ch>
+RoxygenNote: 6.0.1
